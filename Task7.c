@@ -30,7 +30,7 @@ label:
     else if (operator == '/')
     {
         if (operand2 == 0)
-         {
+        {
             printf("Math Error: Division by zero is not possible\n");
         }
         else
@@ -57,7 +57,7 @@ label:
     }
 
     char again;
-    printf("“Do you want to perform another calculation? (Y/N)”");
+    printf("Do you want to perform another calculation? (Y/N)\n");
     scanf(" %c", &again);
     if (again == 'Y')
         goto label;

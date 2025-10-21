@@ -1,3 +1,17 @@
+/* Write a program in  C language in which using Nested loop and show the output like this 
+ OUTPUT
+*
+**
+***
+****
+*****
+*****
+****
+***
+**
+* 
+                        */
+
 #include <stdio.h>
 int main()
 {

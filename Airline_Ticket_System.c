@@ -24,7 +24,7 @@ int main()
     float final_price = 0;
 
     printf("Name: ");
-    scanf("%s", name);
+    fgets(name, sizeof(name), stdin); // reads a full line of text (including spaces) from user input and stores it in 'name'
     printf("Age: ");
     scanf("%d", &age);
     printf("Class (Business/Economy): ");
